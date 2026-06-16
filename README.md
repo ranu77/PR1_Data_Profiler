@@ -3,6 +3,7 @@
 Data Preprocessing & Feature Engineering Project
 
 Overview
+
 This project focuses on the end-to-end data processing pipeline for a telecommunications customer dataset. The goal is to prepare raw data for machine learning by performing data acquisition, cleaning, and exploratory data analysis (EDA) to identify patterns that lead to customer churn.
 
 Objectives
