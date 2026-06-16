@@ -17,21 +17,26 @@ Objectives
 
 Dataset Sources
 
-CSV file 
-JSON file 
-SQL database
-REST API 
+-CSV file 
+-JSON file 
+-SQL database
+-REST API 
 
 Dataset Description
 
 The dataset consists of 7,043 customer records containing demographic, service usage, and billing information:
+
 Features: Tenure, Contract Type, Payment Method, Monthly Charges, Total Charges.
+
 Target: Churn (Binary: Yes/No).
+
 
 Technologies Used
 
 Languages: Python (Jupyter Notebook)
+
 Libraries: Pandas, NumPy, Seaborn, Matplotlib, YData Profiling, SQLite3.
+
 
 Project Workflow
 
