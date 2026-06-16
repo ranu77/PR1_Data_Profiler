@@ -107,16 +107,20 @@ Part E: Data Profiling
 
 <img width="937" height="528" alt="image" src="https://github.com/user-attachments/assets/3374e7f8-0486-4112-9741-a6a499f3822a" />
 
+
 Generated Files
+
 -data_profiler.ipynb
 -Telco_Profiling_Report.html
 
 Key Findings
+
 Churn Drivers: Analysis reveals that customers with month-to-month contracts exhibit significantly higher churn rates.
 Data Quality: The cleaning process successfully rectified type-mismatch errors in financial columns, ensuring the dataset is now "ML-Ready."
 Feature Correlation: A clear positive correlation exists between customer tenure and total charges, indicating the importance of long-term retention.
   
 Conclusion
+
 This project demonstrates the transition from raw, multi-source data to a structured analytical format. The insights gained—specifically regarding contract types and tenure—provide a data-driven basis for future customer retention modeling.
 
 
