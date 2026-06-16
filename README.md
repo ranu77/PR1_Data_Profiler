@@ -7,6 +7,7 @@ Overview
 This project focuses on the end-to-end data processing pipeline for a telecommunications customer dataset. The goal is to prepare raw data for machine learning by performing data acquisition, cleaning, and exploratory data analysis (EDA) to identify patterns that lead to customer churn.
 
 Objectives
+
 - Understand the data analysis workflow  
 - Collect data from multiple sources (CSV, JSON, SQL, API)  
 - Perform data cleaning and preprocessing  
@@ -15,29 +16,34 @@ Objectives
 - Identify factors influencing customer churn
 
 Dataset Sources
+
 CSV file 
 JSON file 
 SQL database
 REST API 
 
 Dataset Description
+
 The dataset consists of 7,043 customer records containing demographic, service usage, and billing information:
 Features: Tenure, Contract Type, Payment Method, Monthly Charges, Total Charges.
 Target: Churn (Binary: Yes/No).
 
 Technologies Used
+
 Languages: Python (Jupyter Notebook)
 Libraries: Pandas, NumPy, Seaborn, Matplotlib, YData Profiling, SQLite3.
 
 Project Workflow
 
 Part A: Fundamentals
+
 - Introduction to Data Analysis  
 - Data Science Project Lifecycle  
 - Machine Learning Problem Statement (Customer Churn Prediction)  
 - Tensor concepts with NumPy examples
 
 Part B: Data Acquisition
+
 Data was collected from one source and used in different format:
 - CSV Files  
 - JSON Files  
@@ -55,6 +61,7 @@ Data was collected from one source and used in different format:
   All datasets were merged and prepared for analysis.
 
 Part C: Data Understanding & Cleaning
+
 -Diagnostic phase: Used .info() and .describe() to identify inconsistencies.
 -Cleaning operations:
   Fixed TotalCharges type conversion (converted from object to float64).
